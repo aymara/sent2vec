@@ -15,6 +15,7 @@
 #include <ostream>
 #include <vector>
 #include <random>
+#include <numeric>
 
 #include "real.h"
 #include "vector.h"

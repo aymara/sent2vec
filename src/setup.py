@@ -15,7 +15,7 @@ sourcefiles  = ['sent2vec.pyx',
                 'vector.cc', 
                 'real.cc', 
                 'productquantizer.cc']
-compile_opts = ['-std=c++0x', '-Wno-cpp', '-pthread', '-Wno-sign-compare']
+compile_opts = ['-std=c++14']
 ext=[Extension('*',
             sourcefiles,
             extra_compile_args=compile_opts,

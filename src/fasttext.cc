@@ -20,6 +20,7 @@
 #include <queue>
 #include <algorithm>
 #include <stdio.h>
+#include <numeric>
 
 
 namespace fasttext {

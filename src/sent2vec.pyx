@@ -78,7 +78,7 @@ cdef class Sent2vecModel:
         return self._thisptr.getDimension()
             
     def load_model(self, model_path):
-        cdef string cmodel_path = model_path.encode('utf-8', 'ignore');
+        cdef string cmodel_path = model_path
         self._thisptr.loadModel(cmodel_path)
 
     def embed_sentence(self, sentence):
